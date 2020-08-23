@@ -1,22 +1,6 @@
-<!DOCTYPE html>
+{% extends "layout.html" %}
 
-<html>
-	<head>
-		<title>
-			{% if title %}
-				Page - {{title}}
-			{% else %}
-				About
-			{% enif %}
-		</title>
+	{% block content %}
+		This page is about cats
+	{% endblock %}
 
-	</head>
-
-
-	<body>
-		This page is about cats!
-	</body>
-
-
-
-</html>
