@@ -1,0 +1,17 @@
+ORM -  Object Relational Mapper
+Allows accessing and interacting with a database in an object oriented way
+Example: SQLAlchemy
+--It can access different types of databases - sqLite
+
+------------------------Good practice-------------------------
+!Use SQLite for development
+!Use Postgres when deploying the database
+
+
+1)First,install the ORM used by Flask using 'pip install flask-sqlalchemy'
+
+
+
+---Run your flask app as a package rather then a module
+---Here's how to do it:
+1)
